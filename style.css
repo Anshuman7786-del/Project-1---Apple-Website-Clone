@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.up-Section{
+    height: 40px;
+    background-color: #f8f5f5;
+    color: #000000CC;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.up-Section a{
+    text-decoration: none;
+    color: inherit;
+    background: none;
+}
+.up-Section a:hover{
+    text-decoration: underline;
+    color: inherit;
+    background: none;
+}
+.Spacing{
+    width: 1024px;
+    display: flex;
+    align-items: center;
+}
+.Edu{
+    padding: 0px 16px 0px 16px;
+}
+.Exit{
+    padding: 0px 16px;
+}
+.Spacing p {
+  margin: 0;
+  padding: 0;
+}
