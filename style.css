@@ -3,6 +3,9 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+body {
+  background-color: #f8f5f5;
+}
 
 .up-Section{
     height: 40px;
@@ -12,6 +15,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+    background: none;
 }
 .up-Section a{
     text-decoration: none;
@@ -88,4 +96,107 @@
   color: #1d1d1f;
   cursor: pointer;
   transition: color 0.2s ease;
+}
+
+/* Main Section */
+
+.store-home {
+  justify-content: center;
+}
+.row {
+  height: 248px;
+  
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+}
+.col {
+  width: 640px;
+  padding: 80px 0px 64px;
+  display: flex;
+  align-items: center;
+ 
+}
+.sub-header {
+  height: 104px;
+  width: 640px;
+}
+.sub-header p {
+  font-size: 43px;
+  font-weight: 550;
+}
+.Greenish {
+  color: #08827C;
+}
+.grey {
+  color: #6E6E73;
+}
+.store-chat { 
+  padding: 90px 0 54px;
+  width: 185px;
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.bx1 {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  padding: 0px 0px 16px;
+}
+.bx2 {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  padding: 0px 0px 10px;
+}
+
+.specialist-icon {
+  background-image: url("images/store-chat-specialist-icon-202506_AV1.jpeg");
+  width: 42px;
+  height: 36px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.Applechat-icon {
+  width: 44px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Applechat-icon i {
+  font-size: 25px;
+}
+
+.chat-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat1 {
+  margin: 0;
+  font-weight: 530;
+  color: #1d1d1f;
+}
+
+.chat2 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #06c;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
