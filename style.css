@@ -183,7 +183,7 @@ body {
 
 .chat1 {
   margin: 0;
-  font-weight: 530;
+  font-weight: 550;
   color: #1d1d1f;
 }
 
@@ -198,5 +198,43 @@ body {
 }
 
 .link:hover {
+  text-decoration: underline;
+}
+
+/* products cards */
+
+.products-horizontal {
+  height: 204px;
+  padding: 16px 0px 40px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+.cards {
+  width: 136px;
+  height: 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards img {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+.link1 {
+  text-decoration: none;
+  color: #1d1d1f;
+}
+.h-name {
+  font-size: 14px;
+  font-weight: 550;
+  text-align: center;
+}
+.cards-name a:hover {
   text-decoration: underline;
 }
