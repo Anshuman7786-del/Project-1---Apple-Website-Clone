@@ -238,3 +238,68 @@ body {
 .cards-name a:hover {
   text-decoration: underline;
 }
+/* Heading */
+.heading1 {
+  font-weight: 550;
+  padding: 35px 0px 0px 88px;
+  font-size: 25px;
+}
+/* Scroll-tab */
+
+.scroll-panel {
+  height: 556px;
+  display: flex;
+  padding: 16px 0px 40px 88px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  gap: 20px;
+}
+.card1 {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  flex: 0 0 400px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 3%;
+}
+.img-card {
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.heading2, .sub-heading, .about {
+  position: absolute;
+  left: 20px;
+  color: black;
+}
+.heading2 {
+  top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.sub-heading {
+  top: 55px;
+  font-size: 17px;
+  font-weight: 550;
+}
+.about {
+  top: 82px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.white-text {
+  color: white;
+}
+.gradient-text {
+  background: linear-gradient(to right, #007aff, #af52de, #ff2d55, #ff6600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card1:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in, box-shadow 0.3s ease;
+}
