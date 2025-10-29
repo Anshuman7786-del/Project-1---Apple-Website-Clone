@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-  background-color: #f8f5f5;
+  background-color: #f5f5f7;
 }
 
 .up-Section{
@@ -264,16 +264,20 @@ body {
   background-color: white;
   overflow: hidden;
   border-radius: 3%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 .img-card {
-   width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: 1;
 }
 .heading2, .sub-heading, .about {
   position: absolute;
   left: 20px;
   color: black;
+  z-index: 2;
 }
 .heading2 {
   top: 20px;
@@ -296,10 +300,126 @@ body {
 .gradient-text {
   background: linear-gradient(to right, #007aff, #af52de, #ff2d55, #ff6600);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .card1:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: scale(1.01);
   transition: transform 0.3s ease-in, box-shadow 0.3s ease;
+}
+
+/* Knowledge Section Horizontal */
+
+.knowledge-horizontal {
+  height: 556px;
+  display: flex;
+  padding: 16px 0px 40px 88px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  gap: 20px;
+}
+.kvertical {
+  width: 313px;
+  height: 500px;
+  padding: 0px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.kcards {
+  width: 300px;
+  height: 240px;
+  padding: 30px 30px 0px;
+  background-color: white;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.kcards:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in, box-shadow 0.3s ease;
+}
+  
+.kcard-text {
+  font-size: 16px;
+  font-weight: 550;
+}
+.green {
+  color: #008009;
+}
+.kcards i {
+  font-size: 40px;
+  padding: 0px 0px 15px;
+}
+.green-icon i {
+  color: #008009;
+}
+.violet {
+  color: #ac39ff;
+}
+.violet-icon i {
+  color: #ac39ff;
+}
+.darkcyan {
+  color: #08827C;
+}
+.darkcyan-icon i {
+  color: #08827C;
+}
+.blue {
+  color: #027aff;
+}
+.blue-icon i {
+  color: #027aff;
+}
+.big-cards {
+  flex: 0 0 auto;
+  position: relative;
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.big-cards:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in, box-shadow 0.3s ease;
+}
+.para1, .para2 {
+  position: absolute;
+  left: 20px;;
+  z-index: 2;
+}
+.para1 {
+  top: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #424245;
+  opacity: 0.8;
+}
+.para2 {
+  top: 55px;
+  right: 100px;
+  font-size: 25px;
+  font-weight: 550;
+  color: black;
+}
+.img-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+/* Footer Section */
+
+.footer-heading {
+  font-weight: 550;
+  padding: 45px 0px 20px 88px;
+  font-size: 26px;
 }
