@@ -416,10 +416,128 @@ body {
   z-index: 1;
 }
 
-/* Footer Section */
-
-.footer-heading {
+.quick-heading {
   font-weight: 550;
   padding: 45px 0px 20px 88px;
   font-size: 26px;
+}
+.quick-links {
+  display: flex;
+  height: 75px;
+  padding: 0px 0px 27px 88px;
+  gap: 15px;
+}
+.fhorizontal {
+  height: 37px;
+  padding: 0px 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #030c15;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fhorizontal a {
+  text-decoration: none;
+  color: inherit;
+}
+.fhpara {
+  font-size: 13px;
+  font-weight: 300;
+}
+.fhorizontal:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Footer Section */
+
+.footer-content {
+  width: 980px;
+  padding: 27px 0px 11px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+
+}
+.foot-para {
+  font-size: 12.5px;
+  color: black;
+  opacity: 0.6;
+}
+.foot-para-link {
+  color: black;
+  opacity: 1;
+}
+.foot-nav {
+  width: 980px;
+  margin: 0 auto;
+  padding: 17px 0px;
+}
+.foot-nav p {
+  font-size: 12.5px;
+  color: black;
+}
+.foot-nav a {
+  text-decoration: none;
+  color: black;
+}
+.footer-link-section {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+.flidivs {
+  width: 196px;
+}
+.flidivs p {
+  margin: 4px 0;
+}
+.fheading {
+  font-size: 12px;
+  font-weight: 550;
+}
+.flink {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  font-size: 12px;
+}
+.seclast {
+  width: 980px;
+  margin: 0 auto 16px;
+  padding: 37px 0px 19px;
+  border-bottom: 1px solid black;
+}
+.seclast-para {
+  font-size: 12.5px;
+  color: black;
+  opacity: 0.6;
+}
+.seclink {
+  color: #0033ff;
+}
+.footer-copyright {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0px 0px 11px;
+  display: flex;
+}
+.fcpy-para {
+  margin: 5px 30px 0px 0px;
+}
+.fcpy-links {
+  margin: 1px 230px 0px 0px;
+}
+.fcpy-link{
+  text-decoration: none;
+  color: black;
+  font-size: 12.5px;
+  opacity: 0.8;
+}
+.fcpy-country {
+  padding-left: 40px;
+  font-size: 12.5px;
+  color: black;
+  opacity: 0.8;
 }
